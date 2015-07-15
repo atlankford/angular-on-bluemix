@@ -1,0 +1,8 @@
+---
+applications:
+#make sure to change the name and host attributes
+- name:      angular-on-bluemix
+  host:      angular-on-bluemix
+  memory:    256M
+  buildpack: https://github.com/cloudfoundry-community/staticfile-buildpack.git
+  stack: cflinuxfs2
